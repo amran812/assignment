@@ -1,0 +1,252 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Work+Sans:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* header css start here */
+/* header-banner start here */
+.header-banner{
+  width: 100%;
+  /* height: 110vh; */
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.architects{
+  display:flex;
+  justify-content: space-around;
+}
+.archiects-title{
+  font-size: 45px;
+  font-weight: 700;
+  color:#131313;
+  font-family: 'Work Sans', sans-serif;
+  margin:50px 200px 0px 0px;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li{
+  list-style: none;
+  margin: 63px 0px 0px 40px;
+}
+/* header-banner end here */
+
+/* group start here */
+.group{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin:50px auto;
+}
+.group-title{
+  font-size: 64px;
+  line-height: 70px;
+  color:#131313;
+}
+.group-para{
+  font-size: 16px;
+  line-height: 24px;
+  color:#727272;
+  margin-top: 20px;
+}
+.group-btn{
+  width: 132px;
+  height: 23px;
+  color:#fff;
+  background-color:
+  #FF900E;
+  border: none;
+  border-radius: 5px;
+  padding:20px;
+  margin-top: 30px;
+}
+/* group end here */
+
+/* big img start here */
+.big-img{
+  width:90%;
+  height: 700px;
+  margin: 0 auto;
+}
+.big-img img{
+  width: 100%;
+  height: 100%;
+}
+/* big img end here */
+/* header css end here */
+
+/* main css start here */
+/* section quick start here */
+.img-quick{
+  width:80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+.img-head{
+  width: 342px;
+  height: 342px;
+  gap:24px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.img-list img{
+  width: 100%;
+  height: 100%;
+}
+.quick-list{
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.quick-title{
+  font-size: 45;
+  line-height: 53px;
+}
+.dark{
+  color:#727272;
+}
+.oragne{
+  color:#FF900E;
+}
+.quick-para{
+  color:#727272;
+  font-size: 16px;
+  line-height: 26px;
+}
+.quick-btn{
+  width: 130px;
+  height: 50px;
+  color:white;
+  background-color: #FF900E;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+/* section quick start here */
+/* feature css start here */
+.feature-main{
+  width: 80%;
+  height: 800px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.feature-list{
+  display: flex;
+  flex-direction: column;
+}
+.feature-title{
+  color:#131313;
+  font-size: 40px;
+  line-height: 50px;
+  border-left: 5px solid #FF900E ;
+  padding-left: 20px;
+}
+.feature-para{
+ color:#727272;
+ font-size: 16px;
+ line-height: 26px;
+ margin:10px;
+ box-shadow: 1px 1px 1px 1px lightgray;
+}
+.feature-para-h4 h4{
+  color:#131313;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.feature{ 
+  width: 50%;
+  position: relative;
+}
+
+.feature img{
+ width: 100%;
+ height: 100%;
+}
+/* feature css start here */
+/* year css btn */
+.year-btn{
+  width: 200px;
+  height: 100px;
+  background-color: #f68606;
+  margin-top: -100px;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  color:#fff;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 45px;
+  line-height: 50px;
+}
+.year-btn small{
+  font-size: 24px;
+  line-height: 30px;
+}
+/* some facts css start here */
+.facts{
+ margin:130px 150px;
+}
+.facts-title{
+  color:#131313;
+  font-size: 45px;
+  line-height: 53px;
+}
+.facts-para{
+  color:#727272;
+  font-size: 16px;
+  line-height: 26px;
+}
+/* some facts css end heres */
+/* logo css star here */
+
+/* logo css end here */
+
+
+/* main css end here */
+
+
+
+/* footer css start here */
+
+/* footer css end here */
+
+
+/* media responsive css start here */
+ @media only screen and (max-width:576px){
+  .header-banner{
+    width:100%;
+    height: auto;
+
+  }
+  ul, .architects{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .archiects-title{
+    font-size: 24px;
+    color:#131313;
+    margin:0;
+  }
+  ul li{
+    margin: 0;
+  }
+  
+
+ }
+/* media responsive css start here */
