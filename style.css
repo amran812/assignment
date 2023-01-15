@@ -213,15 +213,90 @@ ul li{
 }
 /* some facts css end heres */
 /* logo css star here */
+.logo-section{
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.logo{
+  text-align: center;
+  padding: 20px;
 
+}
+.logo-img{
+ width: 46px;
+ height: 46px;
+ padding-left: 50px;
+}
+.logo-img img{
+  width: 100%;
+  height: 100%;
+
+}
+.logo-number{
+  color: #424242;
+  font-size: 45px;
+  line-height: 53px;
+}
+.logo-para{
+ color:#727272;
+ font-size: 20px;
+ line-height: 23px;
+}
 /* logo css end here */
+/* our-sponsor css start here */
+.our-title{
+  width: 40%;
+  margin: 100px auto;
 
+}
+.sponsor-head{
+ color:#131313;
+ font-size: 45px;
+ line-height: 53px;
+}
+.our-para{
+   color:#727272;
+   font-size: 16px;
+   line-height: 26px;
+}
+/* our-sponsor css end here */
+/* sponsor logo css start here */
+.sponsor{
+ width: 90%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-around;
+}
+.sponsor-log{
+ width: 165px;
+ height: 50px;
+ opacity: .8;
+
+}
+.sponsor-log img{
+ width: 100%;
+ height: 100%;
+}
+/* sponsor logo css end here */
 
 /* main css end here */
 
 
-
 /* footer css start here */
+.copy-right{
+  width: 90%;
+  margin: 100px auto;
+  padding:50px;
+  text-align: center;
+  color: #424242;
+  background-color: #FFF4E7;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 10px;
+}
 
 /* footer css end here */
 
