@@ -1,91 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Work+Sans:wght@400;600&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Work+Sans:wght@400;600&display=swap');
-
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 
 }
-body{
+
+body {
   font-family: 'Work Sans', sans-serif;
+}
+
+.h {
+  display: none;
 }
 
 /* header css start here */
 /* header-banner start here */
-.header-banner{
+.header-banner {
   width: 100%;
   /* height: 110vh; */
   background-color: rgba(255, 144, 14, 0.1);
 }
-.architects{
-  display:flex;
+
+.architects {
+  display: flex;
   justify-content: space-around;
 }
-.archiects-title{
+
+.archiects-title {
   font-size: 45px;
   font-weight: 700;
-  color:#131313;
+  color: #131313;
   font-family: 'Work Sans', sans-serif;
-  margin:50px 200px 0px 0px;
+  margin: 50px 200px 0px 0px;
 }
-ul{
+
+ul {
   display: flex;
   justify-content: space-evenly;
 }
-ul li{
+
+ul li {
   list-style: none;
   margin: 63px 0px 0px 40px;
 }
+
 /* header-banner end here */
 
 /* group start here */
-.group{
+.group {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin:50px auto;
+  margin: 50px auto;
 }
-.group-title{
+
+.group-title {
   font-size: 64px;
   line-height: 70px;
-  color:#131313;
+  color: #131313;
 }
-.group-para{
+
+.group-para {
   font-size: 16px;
   line-height: 24px;
-  color:#727272;
+  color: #727272;
   margin-top: 20px;
 }
-.group-btn{
+
+.group-btn {
   width: 132px;
   height: 23px;
-  color:#fff;
+  color: #fff;
   background-color:
-  #FF900E;
+    #FF900E;
   border: none;
   border-radius: 5px;
-  padding:20px;
+  padding: 20px;
   margin-top: 30px;
 }
+
 /* group end here */
 
 /* big img start here */
-.big-img{
-  width:90%;
+.big-img {
+  width: 90%;
   height: 700px;
   margin: 0 auto;
 }
-.big-img img{
+
+.big-img img {
   width: 100%;
   height: 100%;
 }
+
 /* big img end here */
 /* header css end here */
 
 /* main css start here */
 /* section quick start here */
-.img-quick{
-  width:80%;
+.img-quick {
+  width: 80%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -93,93 +108,105 @@ ul li{
   align-items: center;
   margin-top: 70px;
 }
-.img-head{
+
+.img-head {
   width: 342px;
   height: 342px;
-  gap:24px;
+  gap: 24px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-.img-list img{
+
+.img-list img {
   width: 100%;
   height: 100%;
 }
-.quick-list{
+
+.quick-list {
   display: flex;
   flex-direction: column;
- 
-
 }
-.quick-title{
+
+.quick-title {
   font-size: 45;
   line-height: 53px;
 }
-.dark{
-  color:#727272;
+
+.dark {
+  color: #727272;
 }
-.oragne{
-  color:#FF900E;
+
+.oragne {
+  color: #FF900E;
 }
-.quick-para{
-  color:#727272;
+
+.quick-para {
+  color: #727272;
   font-size: 16px;
   line-height: 26px;
 }
-.quick-btn{
+
+.quick-btn {
   width: 130px;
   height: 50px;
-  color:white;
+  color: white;
   background-color: #FF900E;
   text-align: center;
   border-radius: 5px;
   margin-top: 15px;
 }
+
 /* section quick start here */
 /* feature css start here */
-.feature-main{
+.feature-main {
   width: 80%;
   height: 800px;
   margin: 100px auto;
   display: flex;
   justify-content: space-around;
-  
+
 }
-.feature-list{
+
+.feature-list {
   display: flex;
   flex-direction: column;
 }
-.feature-title{
-  color:#131313;
+
+.feature-title {
+  color: #131313;
   font-size: 40px;
   line-height: 50px;
-  border-left: 5px solid #FF900E ;
+  border-left: 5px solid #FF900E;
   padding-left: 20px;
 }
-.feature-para{
- color:#727272;
- font-size: 16px;
- line-height: 26px;
- margin:10px;
- box-shadow: 1px 1px 1px 1px lightgray;
+
+.feature-para {
+  color: #727272;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 10px;
+  box-shadow: 1px 1px 1px 1px lightgray;
 }
-.feature-para-h4 h4{
-  color:#131313;
+
+.feature-para-h4 h4 {
+  color: #131313;
   font-size: 20px;
   line-height: 23px;
 }
 
-.feature{ 
+.feature {
   width: 50%;
   position: relative;
 }
 
-.feature img{
- width: 100%;
- height: 100%;
+.feature img {
+  width: 100%;
+  height: 100%;
 }
+
 /* feature css start here */
 /* year css btn */
-.year-btn{
+.year-btn {
   width: 200px;
   height: 100px;
   background-color: #f68606;
@@ -187,155 +214,176 @@ ul li{
   z-index: 1;
   position: absolute;
   text-align: center;
-  color:#fff;
+  color: #fff;
   padding: 30px;
   border-radius: 10px;
   font-size: 45px;
   line-height: 50px;
 }
-.year-btn small{
+
+.year-btn small {
   font-size: 24px;
   line-height: 30px;
 }
+
 /* some facts css start here */
-.facts{
- margin:130px 150px;
+.facts {
+  margin: 130px 150px;
 }
-.facts-title{
-  color:#131313;
+
+.facts-title {
+  color: #131313;
   font-size: 45px;
   line-height: 53px;
 }
-.facts-para{
-  color:#727272;
+
+.facts-para {
+  color: #727272;
   font-size: 16px;
   line-height: 26px;
 }
+
 /* some facts css end heres */
 /* logo css star here */
-.logo-section{
-  width:80%;
+.logo-section {
+  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  
+
 }
-.logo{
+
+.logo {
   text-align: center;
   padding: 20px;
-  
+
 }
-.logo:hover{
+
+.logo:hover {
   background-color: lightcoral;
   border-radius: 20px;
 }
 
-.logo-img{
- width: 46px;
- height: 46px;
- padding-left: 50px;
+.logo-img {
+  width: 46px;
+  height: 46px;
+  padding-left: 50px;
 }
-.logo-img img{
+
+.logo-img img {
   width: 100%;
   height: 100%;
 
 }
-.logo-number{
+
+.logo-number {
   color: #424242;
   font-size: 45px;
   line-height: 53px;
 }
-.logo-para{
- color:#727272;
- font-size: 20px;
- line-height: 23px;
+
+.logo-para {
+  color: #727272;
+  font-size: 20px;
+  line-height: 23px;
 }
+
 /* logo css end here */
 /* our-sponsor css start here */
-.our-title{
+.our-title {
   width: 40%;
   margin: 100px auto;
 
 }
-.sponsor-head{
- color:#131313;
- font-size: 45px;
- line-height: 53px;
+.sponsor-head {
+  color: #131313;
+  font-size: 45px;
+  line-height: 53px;
 }
-.our-para{
-   color:#727272;
-   font-size: 16px;
-   line-height: 26px;
+
+.our-para {
+  color: #727272;
+  font-size: 16px;
+  line-height: 26px;
 }
 /* our-sponsor css end here */
 /* sponsor logo css start here */
-.sponsor{
- width: 90%;
- margin: 0 auto;
- display: flex;
- justify-content: space-around;
+.sponsor {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
-.sponsor-log{
- width: 165px;
- height: 50px;
- opacity: .8;
+
+.sponsor-log {
+  width: 165px;
+  height: 50px;
+  opacity: .8;
 
 }
-.sponsor-log img{
- width: 100%;
- height: 100%;
+
+.sponsor-log img {
+  width: 100%;
+  height: 100%;
 }
+
 /* sponsor logo css end here */
 /* my extra 10 marks css start here */
-.extra{
+.extra {
   display: flex;
   flex-direction: column;
-  width:40%;
+  width: 40%;
   margin: 100px auto;
-  background-color:rgba(240, 196, 196, 0.512) ;
+  background-color: rgba(240, 196, 196, 0.512);
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   opacity: .9;
 }
-.extra h1{
- font-size: 35px;
- color:#131313;
- 
+
+.extra h1 {
+  font-size: 35px;
+  color: #131313;
+
 }
-.extra form{
+
+.extra form {
   margin: 20px auto;
   display: flex;
   flex-direction: column;
   text-align: center;
-  width:65%
+  width: 65%
 }
-form input{
-  padding:15px;
+
+form input {
+  padding: 15px;
   margin-top: 10px;
   border: none;
   border-radius: 5px;
 }
-.submit{
+
+.submit {
   width: 30%;
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
   border-radius: 5px;
 }
-.submit:hover{
+
+.submit:hover {
   background-color: lightcoral;
 }
+
 /* my extra 10 marks css start here */
 
 /* main css end here */
 
 
 /* footer css start here */
-.copy-right{
+.copy-right {
   width: 90%;
   margin: 100px auto;
-  padding:50px;
+  padding: 50px;
   text-align: center;
   color: #424242;
   background-color: #FFF4E7;
@@ -348,26 +396,159 @@ form input{
 
 
 /* media responsive css start here */
- @media only screen and (max-width:576px){
-  .header-banner{
-    width:100%;
+@media only screen and (max-width:576px) {
+  .header-banner {
+    width: 100%;
     height: auto;
-
   }
-  ul, .architects{
+
+  .group,
+  ul,
+  .architects {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
   }
-  .archiects-title{
+
+  .quick-title,
+  .archiects-title {
     font-size: 24px;
-    color:#131313;
-    margin:0;
-  }
-  ul li{
+    color: #131313;
     margin: 0;
   }
-  
 
- }
+  ul li {
+    margin: 0;
+  }
+
+  .group {
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-title,.group-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .big-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-quick {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .img-head {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: auto;
+    gap: 5px;
+  }
+
+  .feature-main {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    flex-direction: column-reverse;
+  }
+
+  .feature {
+    width: 100%;
+    height: auto;
+    position: none;
+
+  }
+
+  .year-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 10px;
+    word-wrap:wrap;
+  }
+  .year-btn small{
+    font-size: 14px;
+  }
+
+  .facts {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .facts-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .logo-section {
+    width: 100%;
+    flex-direction: column;
+    margin: 10px 0px;
+
+  }
+
+  .logo-img {
+    margin-left: 30%;
+  }
+
+  .our-title {
+    width: 95%;
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  .sponsor-head {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .sponsor {
+    width:100%;
+    margin:10px 0px;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+   
+  }
+  .sponsor-log{
+    width:100px;
+    height: auto;
+    text-align: center;
+  }
+  .extra{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+    align-items: center;
+
+  }
+  .submit {
+    width: 45%;
+   
+    margin:0px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  .extra h1 {
+    font-size: 24px;
+    color: #131313;
+  }
+  .copy-right{
+    width:100%;
+    margin: 10px 0px;
+    padding:0px;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+
+}
+
 /* media responsive css start here */
