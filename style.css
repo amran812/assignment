@@ -223,8 +223,13 @@ ul li{
 .logo{
   text-align: center;
   padding: 20px;
-
+  
 }
+.logo:hover{
+  background-color: lightcoral;
+  border-radius: 20px;
+}
+
 .logo-img{
  width: 46px;
  height: 46px;
@@ -281,6 +286,47 @@ ul li{
  height: 100%;
 }
 /* sponsor logo css end here */
+/* my extra 10 marks css start here */
+.extra{
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  margin: 100px auto;
+  background-color:rgba(240, 196, 196, 0.512) ;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: .9;
+}
+.extra h1{
+ font-size: 35px;
+ color:#131313;
+ 
+}
+.extra form{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width:65%
+}
+form input{
+  padding:15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.submit{
+  width: 30%;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.submit:hover{
+  background-color: lightcoral;
+}
+/* my extra 10 marks css start here */
 
 /* main css end here */
 
