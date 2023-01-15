@@ -10,10 +10,6 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-.h {
-  display: none;
-}
-
 /* header css start here */
 /* header-banner start here */
 .header-banner {
@@ -329,6 +325,7 @@ ul li {
 
 /* sponsor logo css end here */
 /* my extra 10 marks css start here */
+  
 .extra {
   display: flex;
   flex-direction: column;
@@ -373,6 +370,7 @@ form input {
 .submit:hover {
   background-color: lightcoral;
 }
+
 
 /* my extra 10 marks css start here */
 
@@ -470,7 +468,7 @@ form input {
     height: 50px;
     font-size: 16px;
     line-height: 10px;
-    word-wrap:wrap;
+   
   }
   .year-btn small{
     font-size: 14px;
@@ -479,7 +477,7 @@ form input {
   .facts {
     width: 100%;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px;
   }
 
   .facts-title {
@@ -530,7 +528,6 @@ form input {
   }
   .submit {
     width: 45%;
-   
     margin:0px;
     font-size: 20px;
     border-radius: 5px;
